@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="titleText" format="string"/>
+    <attr name="titleTextSize" format="dimension"/>
+    <attr name="titleTextColor" format="color"/>
+    <attr name="image" format="reference"/>
+    <attr name="imageScaleType">
+        <enum name="fillXY" value="0"/>
+        <enum name="center" value="0"/>
+    </attr>
+
+    <declare-styleable name="imageTextView">
+        <attr name="titleText"/>
+        <attr name="titleTextSize"/>
+        <attr name="titleTextColor"/>
+        <attr name="image"/>
+        <attr name="imageScaleType"/>
+    </declare-styleable>
+
+
+    <!--<attr name="isOpen" format="boolean" />-->
+    <!--<attr name="isVideoStart" format="boolean" />-->
+    <!--<attr name="isVideoStop" format="boolean" />-->
+    <!--<attr name="mIsCameraModule" format="boolean" />-->
+
+    <declare-styleable name="CustomProgressBar">
+
+        <attr name="isOpen" format="boolean" />
+        <attr name="isVideoStart" format="boolean" />
+        <attr name="isVideoStop" format="boolean" />
+        <attr name="mIsCameraModule" format="boolean" />
+    </declare-styleable>
+
+
+</resources>
